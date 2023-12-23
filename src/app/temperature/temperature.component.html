@@ -1,0 +1,23 @@
+<h2>Temperatura</h2>
+
+<div class="chart-wrapper" *ngIf="!errorMessage">
+    <canvas baseChart
+    [type]="'line'"
+    [datasets]="dataSet"
+    [labels]="labels"
+    [options]="chartOptions"
+    ></canvas>
+</div>
+<div>
+  <p>L'attuale tasso di riscaldamento globale non è naturale, dal 1880 al 1981 era (0.07°C / 0.13°F) per decade. Dal 1981 questo tasso è aumentato a (0.18°C / 0.32°F).</p>
+
+  <p>L'aumento medio totale della temperatura globale dalla rivoluzione industriale è di circa (1,0 °C / 1,8 °F). L'emisfero settentrionale della Terra si sta riscaldando più velocemente. </p>
+
+  <p>L'Artico si è riscaldato tra (2 °C / 3,6 °F) e (4 °C / 7,2 °F). La temperatura della Terra e la percentuale di gas come Co2, metano e protossido di azoto nell'atmosfera sono strettamente correlate.</p>
+
+  <p>For more detailed information please visit <a href="https://global-warming.org/">Global Warming website</a></p>
+
+</div>
+<br>
+
+<app-back-btn></app-back-btn>

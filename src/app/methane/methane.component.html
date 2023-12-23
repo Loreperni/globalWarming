@@ -1,0 +1,22 @@
+<h2>Livelli di metano</h2>
+
+<div class="chart-wrapper" *ngIf="!errorMessage">
+    <canvas baseChart
+    [type]="'line'"
+    [datasets]="dataSet"
+    [labels]="labels"
+    [options]="chartOptions"
+    ></canvas>
+</div>
+
+<div>
+    <p>Il metano è un gas infiammabile formato da processi geologici e biologici. Alcune dispersioni sono naturali come le perdite da giacimenti di gas naturale.</p>
+
+    <p>Il 50-65% delle emissioni totali di metano a livello globale  però proviene dalle attività umane. Queste includono l'allevamento, l'agricoltura, gli impianti petroliferi e quelli di gas, i rifiuti di case e aziende, le discariche e così via.</p>
+
+    <p>Il metano è un gas con un potenziale di riscaldamento globale diverse volte superiore a quello della CO2. Per oltre 650.000 anni, la concentrazione di metano nell'atmosfera è stata compresa tra 350 e 800 ppb. Dall'inizio della rivoluzione industriale, le attività umane hanno aumentato questa quantità di circa il 150%.</p>
+
+    <p>For more detailed information please visit <a href="https://global-warming.org/">Global Warming website</a></p>
+</div>
+<br>
+<app-back-btn></app-back-btn>

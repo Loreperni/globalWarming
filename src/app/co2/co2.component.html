@@ -1,0 +1,17 @@
+<h2>Livelli di Anidide Carbonica</h2>
+<div class="chart-wrapper" *ngIf="!errorMessage">
+    <canvas baseChart
+    [type]="'line'"
+    [datasets]="dataSet"
+    [labels]="labels"
+    [options]="chartOptions"
+    ></canvas>
+</div>
+
+<div>
+    <p>Per migliaia di anni, la concentrazione naturale di CO2 nell'atmosfera terrestre è stata di circa 280 ppm. Dall'inizio della rivoluzione industriale, le attività umane come la combustione di combustibili fossili, la deforestazione e l'allevamento hanno aumentato questa quantità di oltre il 30%.</p>
+
+    <p>For more detailed information please visit <a href="https://global-warming.org/">Global Warming website</a></p>
+</div>
+<br>
+<app-back-btn></app-back-btn>

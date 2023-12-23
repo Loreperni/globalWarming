@@ -1,0 +1,22 @@
+<h2>Calotte polari</h2>
+<div class="chart-wrapper" *ngIf="!errorMessage">
+    <div>
+    </div>
+    <canvas baseChart
+    [type]="'line'"
+    [datasets]="datasets"
+    [labels]="lables"
+    ></canvas>
+</div>
+
+<div>
+    <p>L'Artico si sta riscaldando a una velocità doppia rispetto alla media globale. Alcune delle ragioni di questo fenomeno sono: L'amplificazione artica e l'effetto albedo. Dal 1979 al 1996 abbiamo perso il 2,2 / 3% della copertura di ghiaccio artico. Dal 2010 a oggi ne stiamo perdendo il 12,85% per decennio!</p>
+
+    <p>Un'altra conseguenza è il disgelo del permafrost. Si tratta di un processo in cui grandi quantità di metano vengono rilasciate nell'atmosfera, alimentando ulteriormente il processo di riscaldamento globale.</p>
+
+    <p>For more detailed information please visit <a href="https://global-warming.org/">Global Warming website</a></p>
+
+</div>
+<br>
+
+<app-back-btn></app-back-btn>

@@ -1,0 +1,20 @@
+<h2>Livelli di Protossido di azoto</h2>
+<div class="chart-wrapper" *ngIf="!errorMessage">
+    <canvas baseChart
+    [type]="'line'"
+    [datasets]="dataSet"
+    [labels]="labels"
+    [options]="chartOptions"
+    ></canvas>
+</div>
+
+<div>
+    <p>Il protossido di azoto è un gas prodotto dalla combustione di combustibili fossili e rifiuti solidi, dai fertilizzanti a base di azoto, dagli impianti di depurazione, dai processi naturali e da altre attività agricole e industriali.</p>
+
+    <p>È il terzo gas dell'atmosfera in termini di cattura di calore ed è il principale composto che distrugge l'ozono emesso dalle attività umane.</p>
+
+    <p>For more detailed information please visit <a href="https://global-warming.org/">Global Warming website</a></p>
+</div>
+<br>
+
+<app-back-btn></app-back-btn>
