@@ -13,9 +13,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs/global-warming",
-            "index": "src/index.html",
-            "main": "src/main.ts",
+            "outputPath": "dist/global-warming",
+            "index": "index.html",
+            "main": "main.ts",
             "polyfills": [
               "zone.js"
             ],
