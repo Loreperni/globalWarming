@@ -7,4 +7,4 @@ RUN npm run build
 
 FROM nginx
 COPY --from=build /usr/src/app/dist/global-warming /usr/share/nginx/html
-EXPOSE 80
+EXPOSE 67
